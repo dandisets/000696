@@ -6,9 +6,29 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 1
-  numberOfFiles: 1
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 3849974839417
+  numberOfFiles: 5
+  numberOfSubjects: 5
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ElectrodeGroup
+  - ElectricalSeries
 citation: Ning, Wing (2023) The organization of context versus content coding in the
   hippocampus and neocortex (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
@@ -20,7 +40,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-11-11T04:51:17.187910+00:00'
-datePublished: '2023-11-13T05:07:28.928309+00:00'
+datePublished: '2023-11-16T08:49:26.548993+00:00'
 description: High-density silicon probe recordings from primary somatosensory cortex,
   posterior parietal cortex, and dorsal hippocampus (CA1) in head-fixed mice while
   running on a treadmill virtual reality task with different tactile cues.
@@ -33,13 +53,13 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000696/versions/draft/assets/
 name: The organization of context versus content coding in the hippocampus and neocortex
 publishedBy:
-  endDate: '2023-11-13T05:07:28.928309+00:00'
-  id: urn:uuid:39ff0c05-5b3e-4e3b-8804-686093aef382
+  endDate: '2023-11-16T08:49:26.548993+00:00'
+  id: urn:uuid:b930c142-0ad6-4644-9a6c-f173ba420a69
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-11-13T05:07:28.928309+00:00'
+  startDate: '2023-11-16T08:49:26.548993+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:153b0a64-ff0a-4c2f-8713-ea554f1f6ba3
+  - id: urn:uuid:231f3d64-0576-4c1c-8b26-ad3658b7135d
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
